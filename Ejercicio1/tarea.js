@@ -9,23 +9,23 @@ class Persona {
         this._gender = gender;
     }
     //Los parametros por defecto no pueden incluirse en el constructor.
-    set nombre(_nombre) {
-        this._nombre = _nombre;
+    set nombre(nombre) {
+        this._nombre = nombre;
     }
-    set edad(_edad) {
-        this._edad = _edad;
+    set edad(edad) {
+        this._edad = edad;
     }
-    set gender(_gender) {
-        this._gender = _gender;
+    set gender(gender) {
+        this._gender = gender;
     }
     // public set dni(_dni:string){
     //     this._dni=_dni;
     // } Ya no es necesario el set porque se genera con la funcion generaDni.
-    set peso(_peso) {
-        this._peso = _peso;
+    set peso(peso) {
+        this._peso = peso;
     }
-    set altura(_altura) {
-        this._altura = _altura;
+    set altura(altura) {
+        this._altura = altura;
     }
     get nombre() {
         return this._nombre;
