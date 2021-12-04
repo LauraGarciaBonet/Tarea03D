@@ -50,7 +50,6 @@ class Electrodomestico {
             case "gris" || "GRIS" || "Gris":return color;
             break;
             default: return this._color;
-            break;
         }
 
     }
@@ -72,7 +71,6 @@ class Electrodomestico {
             case "F" || "f" :return consumo;
             break;
             default: return this._consumo;
-            break;
         }
 
     }
